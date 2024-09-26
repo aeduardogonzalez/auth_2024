@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "449702727144",
+    "project_id": "observatorio-56505",
+    "storage_bucket": "observatorio-56505.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:449702727144:android:8038303cb7b7a84d1c285d",
+        "android_client_info": {
+          "package_name": "com.ejercicio1.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDaG-OSJf2F-paaApdyM-ue_YHW5bsTgeU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
