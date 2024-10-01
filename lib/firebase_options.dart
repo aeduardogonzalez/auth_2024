@@ -23,11 +23,20 @@ class DefaultFirebaseOptions {
       case TargetPlatform.android:
         return android;
       case TargetPlatform.iOS:
-        return ios;
+        throw UnsupportedError(
+          'DefaultFirebaseOptions have not been configured for ios - '
+          'you can reconfigure this by running the FlutterFire CLI again.',
+        );
       case TargetPlatform.macOS:
-        return macos;
+        throw UnsupportedError(
+          'DefaultFirebaseOptions have not been configured for macos - '
+          'you can reconfigure this by running the FlutterFire CLI again.',
+        );
       case TargetPlatform.windows:
-        return windows;
+        throw UnsupportedError(
+          'DefaultFirebaseOptions have not been configured for windows - '
+          'you can reconfigure this by running the FlutterFire CLI again.',
+        );
       case TargetPlatform.linux:
         throw UnsupportedError(
           'DefaultFirebaseOptions have not been configured for linux - '
@@ -41,48 +50,19 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyCw1YDJ8hL9woIA3qMC0UhOTMeTg_wn45A',
-    appId: '1:449702727144:web:e48dec1d6583662c1c285d',
-    messagingSenderId: '449702727144',
-    projectId: 'observatorio-56505',
-    authDomain: 'observatorio-56505.firebaseapp.com',
-    storageBucket: 'observatorio-56505.appspot.com',
-    measurementId: 'G-MBDFJEVGDN',
+    apiKey: 'AIzaSyARElLgAFHzBIxvYwQPJYyQLgxKYo7Q-UE',
+    appId: '1:320171584348:web:57e361cc5a6fc68e406f99',
+    messagingSenderId: '320171584348',
+    projectId: 'proyecto-f9657',
+    authDomain: 'proyecto-f9657.firebaseapp.com',
+    storageBucket: 'proyecto-f9657.appspot.com',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyDaG-OSJf2F-paaApdyM-ue_YHW5bsTgeU',
-    appId: '1:449702727144:android:8038303cb7b7a84d1c285d',
-    messagingSenderId: '449702727144',
-    projectId: 'observatorio-56505',
-    storageBucket: 'observatorio-56505.appspot.com',
-  );
-
-  static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyBa3I4kvMKOB9Jwz_LrysJTb4-k69L44GE',
-    appId: '1:449702727144:ios:d1c14490ddc0d9a31c285d',
-    messagingSenderId: '449702727144',
-    projectId: 'observatorio-56505',
-    storageBucket: 'observatorio-56505.appspot.com',
-    iosBundleId: 'com.example.auth2024',
-  );
-
-  static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyBa3I4kvMKOB9Jwz_LrysJTb4-k69L44GE',
-    appId: '1:449702727144:ios:d1c14490ddc0d9a31c285d',
-    messagingSenderId: '449702727144',
-    projectId: 'observatorio-56505',
-    storageBucket: 'observatorio-56505.appspot.com',
-    iosBundleId: 'com.example.auth2024',
-  );
-
-  static const FirebaseOptions windows = FirebaseOptions(
-    apiKey: 'AIzaSyCw1YDJ8hL9woIA3qMC0UhOTMeTg_wn45A',
-    appId: '1:449702727144:web:fcac82882f7bd9841c285d',
-    messagingSenderId: '449702727144',
-    projectId: 'observatorio-56505',
-    authDomain: 'observatorio-56505.firebaseapp.com',
-    storageBucket: 'observatorio-56505.appspot.com',
-    measurementId: 'G-X7EKQ9T1DZ',
+    apiKey: 'AIzaSyA5LCnBgrIS0xf0zZIWhoZO7nUZO-wNxsM',
+    appId: '1:320171584348:android:ae8b5e7923e628ea406f99',
+    messagingSenderId: '320171584348',
+    projectId: 'proyecto-f9657',
+    storageBucket: 'proyecto-f9657.appspot.com',
   );
 }

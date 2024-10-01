@@ -1,21 +1,21 @@
 {
   "project_info": {
-    "project_number": "449702727144",
-    "project_id": "observatorio-56505",
-    "storage_bucket": "observatorio-56505.appspot.com"
+    "project_number": "320171584348",
+    "project_id": "proyecto-f9657",
+    "storage_bucket": "proyecto-f9657.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:449702727144:android:8038303cb7b7a84d1c285d",
+        "mobilesdk_app_id": "1:320171584348:android:ae8b5e7923e628ea406f99",
         "android_client_info": {
-          "package_name": "com.ejercicio1.app"
+          "package_name": "com.example.auth_2024"
         }
       },
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyDaG-OSJf2F-paaApdyM-ue_YHW5bsTgeU"
+          "current_key": "AIzaSyA5LCnBgrIS0xf0zZIWhoZO7nUZO-wNxsM"
         }
       ],
       "services": {

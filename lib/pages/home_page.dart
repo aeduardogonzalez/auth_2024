@@ -1,4 +1,5 @@
 import 'package:auth_2024/pages/page1.dart';
+import 'package:auth_2024/pages/page2.dart';
 import 'package:auth_2024/pages/page4.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
@@ -73,15 +74,6 @@ class _HomePageState extends State<HomePage> {
 }
 
 // Ejemplo de las páginas
-
-class Page2 extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return Center(
-      child: Text('Página 2'),
-    );
-  }
-}
 
 class Page3 extends StatelessWidget {
   @override
